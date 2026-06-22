@@ -1,0 +1,26 @@
+name: Bust README Cache
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' 
+  workflow_dispatch: 
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update timestamp in README
+        run: |
+          sed -i "s/<!-- CACHE_TIMESTAMP -->.*/<!-- CACHE_TIMESTAMP --> $(date +%s)/" README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          # Коммитим только если были изменения
+          git commit -m "chore: auto-bust readme cache" || exit 0
+          git push
