@@ -23,5 +23,4 @@ Now mainly gamedev, working with the team and having a great time :)
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=Astonikum&show_icons=true&theme=dark)
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=Astonikum&theme=dark)
 
-##
-<!-- CACHE_TIMESTAMP --> 1782153377
+<!-- CACHE_TIMESTAMP --> 
