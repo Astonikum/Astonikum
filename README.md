@@ -16,7 +16,7 @@ Now mainly gamedev, working with the team and having a great time :)
 
 ###
 
-<img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=Astonikum&theme=dark&show_icons=true&hide_border=true&count_private=true&layout=compact">
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=Astonikum&theme=dark&show_icons=true&hide_border=true&count_private=true&layout=compact">  
 
 ## 📊 My stats 
 
